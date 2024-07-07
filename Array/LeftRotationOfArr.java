@@ -10,7 +10,7 @@ public class LeftRotationOfArr {
     // method to rotate the array
     public static void leftRotation(int[] arr, int rotation_times) {
 
-        int temp = 0;
+        int temp;
         // left rotation operation
         for (int i = 1; i <= rotation_times; i++) {
             temp = arr[0];
